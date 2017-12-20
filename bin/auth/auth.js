@@ -1,6 +1,6 @@
 const request = require('request-promise-native');
 const keys = require('./keys.json');
-const siteUrl = 'http://staging.roughcountry.com';
+const siteUrl = require('../../settings.json').apiUrl;
 const authKey = keys.AUTH_KEY;
 const authSecret = keys.AUTH_SECRET;
 
