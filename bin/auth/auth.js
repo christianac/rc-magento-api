@@ -12,9 +12,9 @@ let qs = require('querystring'),
         callback: 'http://dummydevurl.io/callback',
         consumer_key: authKey,
         consumer_secret: authSecret,
-        token: 'a66ae34ccf512f78e9e637467e435e9e', // token retrieved using preauth.js (value not stored in keys, not used again)
-        token_secret: '6e4a19a2dd7ae71d307cccdee3b46577', // secret retrieved using preauth.js (value not stored in keys, not used again)
-        verifier: '464cba966c1c4ef0978f12f4ba0a31c8' // <-- verifier here retrieved from user authentication in browser
+        token: '', // token retrieved using preauth.js (value not stored in keys, not used again)
+        token_secret: '', // secret retrieved using preauth.js (value not stored in keys, not used again)
+        verifier: '' // <-- verifier here retrieved from user authentication in browser
     },
     url = siteUrl + '/oauth/token';
 
